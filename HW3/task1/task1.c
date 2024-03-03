@@ -20,5 +20,5 @@ int main() {
 
     sum = a + b + c;
 
-    printf("a + b + c = %ld", sum);
+    printf("a + b + c = %ld\n", sum);
 }
