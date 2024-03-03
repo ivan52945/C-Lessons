@@ -19,9 +19,9 @@ int main() {
 
     read_input(&a, &b, &c);
 
-    comp = (long long)a * b * c;
-    sum = (long)a + b + c;
+    comp = a * b * c;
+    sum = a + b + c;
 
-    printf("a + b + c = %d\n", sum);
-    printf("a * b * c = %d", comp);
+    printf("a + b + c = %ld\n", sum);
+    printf("a * b * c = %lld\n", comp);
 }
