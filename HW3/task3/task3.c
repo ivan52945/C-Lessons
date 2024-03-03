@@ -18,7 +18,7 @@ int main() {
 
     read_input(&a, &b);
 
-    dif = (long)a - b;
+    dif = a - b;
 
-    printf("%d", dif);
+    printf("%ld", dif);
 }
