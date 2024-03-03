@@ -14,15 +14,15 @@ void read_input(int* pa) {
 
 int main() {
     unsigned int a;
-    unsigned int digitSum = 1;
+    unsigned int digitMult = 1;
 
     read_input(&a);
 
-    digitSum *= a % 10;
+    digitMult *= a % 10;
     a /= 10;
-    digitSum *= a % 10;
+    digitMult *= a % 10;
     a /= 10;
-    digitSum *= a;
+    digitMult *= a;
 
-    printf("%d", digitSum);
+    printf("%d\n", digitMult);
 }
