@@ -20,5 +20,5 @@ int main() {
 
     average = (a + b + c) / 3.0;
 
-    printf("%lf", average);
+    printf("%lf\n", average);
 }
