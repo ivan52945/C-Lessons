@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void read_input(int* pa) {
+void read_input(unsigned int* pa) {
     int n_items = 0;
 
     n_items = scanf("%d", pa);
