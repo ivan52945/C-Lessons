@@ -16,8 +16,10 @@ int main() {
 
     read_input(&a, &b, &c);
 
-    if(b < a || c < b) printf("No\n");
-    else printf("Yes\n");
+    if(b < a || c < b)
+        printf("No\n");
+    else
+        printf("Yes\n");
 
     return 0;
 }

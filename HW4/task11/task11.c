@@ -28,8 +28,10 @@ int main() {
         c = tmp;
     }
 
-    if(a + b <= c) printf("NO\n");
-    else printf("YES \n");
+    if(a + b <= c)
+        printf("NO\n");
+    else
+        printf("YES \n");
 
     return 0;
 }
