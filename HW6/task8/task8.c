@@ -33,10 +33,7 @@ int is_happy_number(int n) {
         n /= 10;
     }
 
-    if(sum == mult)
-        return 1;
-    else
-        return 0;
+    return (sum == mult) ? 1 : 0;
 
 }
 
