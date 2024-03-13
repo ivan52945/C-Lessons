@@ -6,7 +6,7 @@ int main() {
 
     char c;
 
-    while((c = getchar()) != '.') {
+    while((c = getchar()) != '.' && count >= 0) {
         if(c == '(')
             count += 1;
         else if(c == ')')
