@@ -12,16 +12,11 @@ void read_input(int* pa) {
 }
 
 int is2pow(int n) {
-    if(n == 0)
-        return 0;
 
-    if((n % 2) == 0)
+    if(n > 1 && (n % 2) == 0)
         return is2pow(n / 2);
 
-    if(n == 1)
-        return 1;
-    else
-        return 0;
+    return (n == 1) ? 1 : 0;
 }
 
 int main() {
