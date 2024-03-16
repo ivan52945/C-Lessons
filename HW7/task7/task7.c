@@ -3,7 +3,8 @@
 int acounter(void) {
     char a = getchar();
 
-    if(a == '.') return 0;
+    if(a == '.')
+        return 0;
 
     if(a == 'a')
         return 1 + acounter();
