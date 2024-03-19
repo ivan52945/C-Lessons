@@ -17,7 +17,7 @@ int main() {
 
     read_input(&a);
 
-    if(a < 9) {
+    if(a > 9) {
         while(a > 0) {
             digit = a % 10;
 

@@ -28,7 +28,7 @@ int main() {
         b = tmp;
     }
 
-    else printf("%d %d", a, b);
+    printf("%d %d", a, b);
 #endif
 
     return 0;

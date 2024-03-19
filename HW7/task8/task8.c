@@ -14,8 +14,9 @@ void read_input(int* pa, int* pb) {
 int recurs_power(int n, int p) {
     if(p > 1)
         return n * recurs_power(n, p - 1);
-    else
+    else if(p == 1)
         return n;
+    else return 1;
 }
 
 int main() {

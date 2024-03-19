@@ -22,6 +22,6 @@ int main() {
     comp = a * b * c;
     sum = a + b + c;
 
-    printf("a + b + c = %ld\n", sum);
-    printf("a * b * c = %lld\n", comp);
+    printf("%d+%d+%d=%ld\n", a, b, c, sum);
+    printf("%d*%d*%d=%lld\n", a, b, c, comp);
 }

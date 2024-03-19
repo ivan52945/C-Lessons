@@ -16,7 +16,7 @@ int main() {
 
     read_input(&mounth);
 
-    seasonI = ((mounth + 10) % 12) / 3;
+    seasonI = ((mounth + 9) % 12) / 3;
 
     switch(seasonI) {
         case 0:

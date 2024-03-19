@@ -2,7 +2,7 @@
 
 int main() {
 
-  printf("Let’s\n");
+  printf("Let's\n");
   printf("  go\n");
   printf("    to walk");
 
